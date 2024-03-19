@@ -1,3 +1,5 @@
+"based on professor example
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
