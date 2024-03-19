@@ -19,5 +19,4 @@ echo "Replaced with repo vimrc"
 vim +PluginInstall +qall
 echo "Installed plugin list in vim"
 
-#for ycm
-python3 ~/.vim/bundle/youcompleteme/install.py --all
+
