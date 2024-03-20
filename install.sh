@@ -15,10 +15,18 @@ if [[ "$(id -u)" -eq 0 ]]; then
 		echo "apt is installed exactly as specified."
 		apt install -y \
 			nmap \
-			dnsutils \	
+			dnsutils \
+			nsnake \	
 	else
 		echo "apt is not installed at the specified location."
 	fi
+	# moving bashrc
+	ln -s /home/$ME/dotfiles/bashrc /home/$ME/.bashrc
+
+	# moving ssh files
+	ln -s /home/$ME/dotfiles/sshfiles/config /home/$ME/.ssh/config
+	ln -s /home/$ME/dotfiles/sshfiles/authorized_keys /home/$ME/.ssh/authorized_keys
+
 else
 	echo "Script is not running as root, exiting..." 1>&2
 	exit 1
