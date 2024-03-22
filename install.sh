@@ -27,6 +27,9 @@ if [[ "$(id -u)" -eq 0 ]]; then
 	ln -s /home/$ME/dotfiles/sshfiles/config /home/$ME/.ssh/config
 	ln -s /home/$ME/dotfiles/sshfiles/authorized_keys /home/$ME/.ssh/authorized_keys
 
+ 	# moving git files
+	ln -s /home/$ME/dotfiles/gitfiles/.gitconfig /home/$ME/.gitconfig
+
 else
 	echo "Script is not running as root, exiting..." 1>&2
 	exit 1
