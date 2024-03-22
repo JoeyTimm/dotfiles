@@ -1,0 +1,9 @@
+[user]
+        email = timm.3@wright.edu
+        name = Joseph Timm
+
+[core]
+        editor = vim
+
+[help]
+        autocorrect = 20
