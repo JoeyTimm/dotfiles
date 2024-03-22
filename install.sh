@@ -25,7 +25,7 @@ if [[ "$(id -u)" -eq 0 ]]; then
 
 	# moving ssh files
 	ln -s /home/$ME/dotfiles/sshfiles/config /home/$ME/.ssh/config
-	ln -s /home/$ME/dotfiles/sshfiles/authorized_keys /home/$ME/.ssh/authorized_keys
+	ln -s /home/$ME/dotfiles/.ssh/authorized_keys /home/$ME/.ssh/authorized_keys
 
  	# moving git files
 	ln -s /home/$ME/dotfiles/gitfiles/.gitconfig /home/$ME/.gitconfig
