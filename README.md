@@ -19,6 +19,11 @@
 ## Git Folder
 - .gitconfig: sets default text editor to vim, sets name and email, and enables autocorrect features
 
+## Running the scripts
+- Must be sudo and have apt
+- At the minimum run "sudo bash install.sh"
+- Can use the same command but replace install.sh with another install script of choice.
+
 # References 
 - professor (pattonsgirl) dotfiles
 - ChaseEnnis dotfiles
